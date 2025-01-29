@@ -48,6 +48,13 @@ li {
 
 /* Main styling */
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.884);
+    z-index: 99;
+}
+
 .top-header {
     border-bottom: 1px solid rgba(128, 128, 128, 0.562);
 }
@@ -173,8 +180,11 @@ svg {
     transition: all .3s ease;
 }
 
+/* Hero Section */
+
 .hero-section {
     width: 100%;
+    padding: 50px 0;
 }
 
 .hero-section-content {
@@ -247,4 +257,49 @@ svg {
         transform: translate(0);
         opacity: 1;
     }
+}
+
+/* Icon Section */
+
+.icon-section {
+    width: 100%;
+}
+
+.icon-sec-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 15%;
+    position: relative;
+    padding: 25px 10px;
+    height: 80px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.card-4 , .card-6 {
+    padding: 15px 10px;
+}
+
+.card:hover {
+    background-color: var(--main-green-color);
+    color: white;
+}
+
+.card-text {
+    width: 50%;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.card .icon {
+    position: absolute;
+    top: -20px;
+    right: 0;
 }
