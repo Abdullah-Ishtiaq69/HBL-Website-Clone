@@ -177,7 +177,7 @@ svg {
     border: 1px solid var(--main-green-color);
     color: var(--main-green-color);
     background-color: white;
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 
 /* Hero Section */
@@ -276,7 +276,6 @@ svg {
     position: relative;
     padding: 25px 10px;
     height: 80px;
-    margin-bottom: 20px;
     overflow-y: hidden;
     border: 1px solid rgba(128, 128, 128, 0.562);
     cursor: pointer;
@@ -302,4 +301,78 @@ svg {
     position: absolute;
     top: -20px;
     right: 0;
+}
+
+.third-section {
+    width: 100%;
+    padding: 120px 0;
+}
+
+.third-sec-content h2 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 100;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.third-sec-link-sec {
+    width: 210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.third-sec-link-sec a {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.third-sec-link-sec a:nth-child(1) {
+    border-bottom: 2px solid var(--main-green-color);
+    color: var(--main-green-color);
+}
+
+.third-sec-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-sec-left {
+    width: 48%;
+}
+
+.third-sec-left img {
+    width: 100%;
+}
+
+.third-sec-right {
+    width: 38%;
+}
+
+.third-sec-right h4 {
+    width: 175px;
+    color: var(--main-green-color);
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+    margin-bottom: 30px;
+}
+
+.third-sec-right div {
+    width: 300px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.third-sec-right .btn {
+    margin-left: 0px;
 }
