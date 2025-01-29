@@ -35,7 +35,6 @@ li {
 }
 
 .btn {
-    margin-left: 10px;
     text-transform: uppercase;
     font-weight: 600;
     padding: 12px 28px;
@@ -173,6 +172,10 @@ svg {
     cursor: pointer;
 }
 
+.bottom-header .btn {
+    margin-left: 10px;
+}
+
 .btn:hover {
     border: 1px solid var(--main-green-color);
     color: var(--main-green-color);
@@ -219,10 +222,6 @@ svg {
     font-size: 32px;
     color: var(--main-green-color);
     margin-bottom: 30px;
-}
-
-.hero-sec-left .btn {
-    margin-left: 0;
 }
 
 .hero-sec-right {
@@ -282,7 +281,8 @@ svg {
     transition: all .5s ease;
 }
 
-.card-4 , .card-6 {
+.card-4,
+.card-6 {
     padding: 15px 10px;
 }
 
@@ -373,6 +373,78 @@ svg {
     color: #333;
 }
 
-.third-sec-right .btn {
-    margin-left: 0px;
+.fourth-section {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.fourth-sec-content .fourth-sec-big-txt {
+    font-size: 52px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fourth-card-sec-main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fourth-card-left {
+    width: 20%;
+    margin-right: 80px;
+}
+
+.fourth-card-left div {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.fourth-card-right {
+    overflow-x: scroll;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-gap: 20px;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.596);
+}
+
+.fourth-card-right::-webkit-scrollbar {
+    width: 0;
+}
+
+.fourth-card-img-sec {
+    width: 260px;
+    position: relative;
+    cursor: pointer;
+}
+
+.fourth-card-img-sec img:hover {
+    transform: scale(1.08);
+}
+
+.fourth-card-img-sec img {
+    width: 255px;
+    transition: transform .5s ease;
+}
+
+.fourth-card-img-txt {
+    position: absolute;
+    bottom: 13%;
+    left: 5%;
+    color: white;
+}
+
+.fourth-card-big-txt {
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.fourth-card-small-txt {
+    font-size: 14px;
 }
