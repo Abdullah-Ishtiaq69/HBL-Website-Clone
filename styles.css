@@ -4,6 +4,11 @@
 
 }
 
+::selection {
+    background-color: var(--main-green-color);
+    color: white;
+}
+
 /* Reset CSS */
 
 * {
@@ -375,7 +380,7 @@ svg {
 
 .fourth-section {
     width: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .fourth-sec-content .fourth-sec-big-txt {
@@ -447,4 +452,83 @@ svg {
 
 .fourth-card-small-txt {
     font-size: 14px;
+}
+
+.fifth-section {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.fifth-sec-heading {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 52px;
+    margin-bottom: 60px;
+}
+
+.fifth-sec-link-sec {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+}
+
+.fifth-sec-link-sec a {
+    width: 45%;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.fifth-sec-link-sec a:nth-child(1) {
+    color: var(--main-green-color);
+    border-bottom: 3px solid var(--main-green-color);
+}
+
+.fifth-card-sec-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fifth-card-left {
+    width: 60%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.596);
+}
+
+.fifth-card-left::-webkit-scrollbar {
+    width: 0;
+}
+
+.fifth-card {
+    text-align: center;
+}
+
+.fifth-card img {
+    width: 220px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.fifth-card .btn {
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 10px 26px;
+}
+
+.fifth-card-right {
+    width: 35%;
+}
+
+.fifth-card-right img {
+    width: 100%;
 }
