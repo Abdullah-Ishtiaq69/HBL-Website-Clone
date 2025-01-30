@@ -490,12 +490,12 @@ svg {
 
 .fifth-card-sec-main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .fifth-card-left {
-    width: 60%;
+    width: 50%;
     overflow-x: auto;
     display: flex;
     justify-content: flex-start;
@@ -514,7 +514,7 @@ svg {
 }
 
 .fifth-card img {
-    width: 220px;
+    width: 190px;
     margin-bottom: 15px;
     cursor: pointer;
 }
@@ -531,4 +531,200 @@ svg {
 
 .fifth-card-right img {
     width: 100%;
+}
+
+.sixth-section {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.sixth-sec-heading {
+    font-size: 52px;
+    width: 70%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.sixth-img-sec-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.sixth-left {
+    width: 45%;
+}
+
+.sixth-section img {
+    width: 100%;
+}
+
+.sixth-right {
+    width: 50%;
+}
+
+.sixth-link-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+}
+
+.sixth-link-sec a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.sixth-link-sec a:nth-child(1) {
+    color: var(--main-green-color);
+    border-bottom: 3px solid var(--main-green-color);
+}
+
+.sixth-sec-range {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin: 60px 0;
+}
+
+.range-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+}
+
+.range-box div:nth-child(1) {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--main-green-color);
+}
+
+.range-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.input-range {
+    width: 75%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.596);
+    cursor: pointer;
+}
+
+.input-box {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--main-green-color);
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.input-range + div {
+    width: 23%;
+    padding: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.input-range + div > span {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    color: var(--main-green-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.sixth-sec-last-content {
+    padding: 30px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.596);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.time-period {
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.time-period span {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--main-green-color);
+}
+
+.sixth-sec-border {
+    width: 25%;
+    padding: 0 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: var(--main-green-color);
+    text-transform: uppercase;
+    border-left: 1px solid rgba(128, 128, 128, 0.596);
+    border-right: 1px solid rgba(128, 128, 128, 0.596);
+}
+
+.sixth-sec-currency {
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sixth-sec-price {
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.sixth-sec-charges {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.charges-txt {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--main-green-color);
+    margin-bottom: 6px;
+}
+
+.charges-box {
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.charges-box-1 div:nth-child(1) {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.charges-box div:last-child {
+    color: var(--main-green-color);
+    font-weight: 600;
+}
+
+.charges-box-2 {
+    justify-content: center;
 }
