@@ -428,13 +428,13 @@ svg {
     cursor: pointer;
 }
 
-.fourth-card-img-sec img:hover {
-    transform: scale(1.08);
-}
-
 .fourth-card-img-sec img {
     width: 255px;
     transition: transform .5s ease;
+}
+
+.fourth-card-img-sec img:hover {
+    transform: scale(1.08);
 }
 
 .fourth-card-img-txt {
@@ -535,7 +535,7 @@ svg {
 
 .sixth-section {
     width: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 .sixth-sec-heading {
@@ -727,4 +727,128 @@ svg {
 
 .charges-box-2 {
     justify-content: center;
+}
+
+.seventh-section {
+    width: 100%;
+}
+
+.seventh-sec-heading {
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.seventh-img-sec {
+    width: 260px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.seventh-img-sec img {
+    width: 100%;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.seventh-img-sec-content {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 10px;
+}
+
+.seventh-img-sec h3 {
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.seventh-img-sec p {
+    font-size: 14px;
+}
+
+.seventh-img-sec-2 .seventh-img-sec-content {
+    top: 8%;
+    left: 6px;
+}
+
+.seventh-img-2-sec-2 .seventh-img-sec-content {
+    left: 30px;
+}
+
+.white-sec .seventh-img-sec-content {
+    color: white;
+    left: 5px;
+}
+
+.seventh-img-sec .btn {
+    position: absolute;
+    bottom: 10%;
+    z-index: 97;
+    left: 20%;
+}
+
+.seventh-img-sec-3 {
+    height: 238px;
+    bottom: 240px;
+    width: 46.2%;
+}
+
+.seventh-img-sec-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.seventh-img-sec-3 .seventh-img-sec-content {
+    left: 19%;
+}
+
+.seventh-img-sec-3 .btn {
+    bottom: 15%;
+    left: 38%;
+}
+
+.seventh-img-sec img:hover {
+    transform: scale(1.06);
+}
+
+.last-section {
+    width: 100%;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+    margin-bottom: 20px;
+}
+
+.last-sec-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.last-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.last-box:hover > svg ,
+.last-box:hover > div {
+    transform: scale(1.2);
+}
+
+.last-box > svg {
+    transition: transform .2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.last-box > div {
+    transition: transform .2s ease-in-out;
+    text-transform: uppercase;
+    font-size: 14px;
 }
