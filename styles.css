@@ -852,3 +852,160 @@ svg {
     text-transform: uppercase;
     font-size: 14px;
 }
+
+.footer-link-section {
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.596);
+}
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-gap: 30px;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.first-footer-link {
+    width: 9%;
+}
+
+.second-footer-link {
+    width: 14%;
+}
+
+.third-footer-link {
+    width: 16%;
+}
+
+.fourth-footer-link {
+    width: 12%;
+}
+
+.fifth-footer-link {
+    width: 10%;
+}
+
+.last-footer-link {
+    width: 25%;
+}
+
+.footer-link h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--main-green-color);
+}
+
+.footer-link a {
+    font-size: 11px;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+form input {
+    padding: 6px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+}
+
+form input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.small-txt {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+    color: rgba(49, 49, 49, 0.849);
+    position: relative;
+    bottom: 20px;
+}
+
+form .btn {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+}
+
+.footer-button-sec {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 50px;
+    position: relative;
+    bottom: 60px;
+    border-bottom: 1px solid (128, 128, 128, 0.596);
+}
+
+.first-button-sec {
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.first-button-sec img {
+    width: 100%;
+}
+
+.second-button-sec {
+    width: 115px;
+}
+
+.second-button-sec img {
+    width: 100%;
+}
+
+.third-button-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.third-button-sec h5 {
+    font-size: 14px;
+    color: var(--main-green-color);
+    text-transform: uppercase;
+}
+
+.update {
+    font-size: 14px;
+    color: #333;
+}
+
+.bottom-footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.bottom-left {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.bottom-right div {
+    font-size: 14px;
+}
